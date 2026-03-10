@@ -3,7 +3,7 @@
 Site web dédié à un univers original de jeu de rôle.
 Ce projet est actuellement en cours de développement et sert de laboratoire d’apprentissage pour le développement frontend moderne.
 
----
+--- 
 
 ## 📌 À propos
 
