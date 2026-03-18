@@ -1,83 +1,141 @@
-# E2C JDR
+# 🎲 E2C JDR
 
-Site web dédié à un univers original de jeu de rôle.
-Ce projet est actuellement en cours de développement et sert de laboratoire d’apprentissage pour le développement frontend moderne.
+<p align="center">
+  <img src="image/logo.jpg" alt="E2C JDR Logo" width="200"/>
+</p>
 
---- 
+<p align="center">
+  <strong>Plateforme immersive de jeu de rôle • Univers original</strong><br/>
+  <em>Frontend moderne • UI/UX • Expérimentation technique</em>
+</p>
 
-## 📌 À propos
+---
 
-**E2C JDR** est un projet personnel ayant pour objectifs :
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-Structure-orange?logo=html5" />
+  <img src="https://img.shields.io/badge/TailwindCSS-Utility--First-38B2AC?logo=tailwind-css" />
+  <img src="https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript" />
+  <img src="https://img.shields.io/badge/Responsive-Yes-success" />
+  <img src="https://img.shields.io/badge/Status-In%20Progress-blue" />
+</p>
 
-- Approfondir la maîtrise de **Tailwind CSS**
-- Consolider les compétences en **HTML5, CSS3 et JavaScript**
-- Mettre en œuvre des composants UI responsives
-- Structurer un projet frontend de manière propre et évolutive
+---
 
-Le site évoluera progressivement vers une plateforme plus complète dédiée à l’univers du jeu.
+## 🧭 Aperçu
+
+**E2C JDR** est une plateforme web en cours de développement dédiée à un univers original de jeu de rôle.
+
+Ce projet sert de :
+
+- laboratoire d’expérimentation frontend
+- démonstration de compétences techniques
+- base évolutive vers une application plus complète
+
+---
+
+## 🎯 Objectifs
+
+- Maîtriser **Tailwind CSS** en profondeur
+- Consolider les fondamentaux **HTML / CSS / JavaScript**
+- Concevoir une **interface immersive et responsive**
+- Mettre en place une **architecture frontend évolutive**
 
 ---
 
 ## 🛠️ Stack technique
 
-- HTML5
-- Tailwind CSS (via CDN)
-- JavaScript Vanilla
-- Font Awesome
+| Technologie        | Usage           |
+| ------------------ | --------------- |
+| HTML5              | Structure       |
+| Tailwind CSS       | Design & layout |
+| JavaScript Vanilla | Interactivité   |
+| Font Awesome       | Icônes          |
 
 ---
 
-## ✨ Fonctionnalités actuelles
+## ✨ Fonctionnalités
 
-- Barre de navigation responsive
-- Menu mobile animé
-- Gestion dynamique des dropdowns
-- Détection automatique de la page active
-- Intégration d’une carte du monde (Rouenne)
-- Design adaptable mobile / desktop
+- 🔹 Navigation responsive
+- 🔹 Menu mobile animé
+- 🔹 Menus déroulants interactifs
+- 🔹 Détection automatique de la page active
+- 🔹 Carte du monde (_Rouenne_)
+- 🔹 Interface adaptative (mobile / desktop)
+- 🔹 Simulation de connexion côté frontend
+
+---
+
+## 🔐 Accès de démonstration
+
+Ce projet inclut une **simulation de connexion** destinée uniquement à illustrer l’interface utilisateur.
+
+Aucune authentification réelle n’est implémentée (pas de backend ni de gestion sécurisée des identifiants).
+
+**Identifiants de test :**
+
+```txt id="login-clean"
+Email : test@gmail.com
+Mot de passe : test1234
+```
 
 ---
 
 ## 📂 Structure du projet
 
-```
+```bash id="n3x9qp"
 /
+├── image/
+│   ├── background.jpg
+│   ├── logo.jpg
+│   └── map.jpg
+├── js/
+│   └── tailwind.config.js
+├── pages/
+│   ├── info.html
+│   └── login.html
 ├── index.html
-├── background.jpg
-└── map.jpg
+├── README.md
+└── .gitattributes
 ```
 
 ---
 
-## 🚀 Installation & utilisation
+## 🚀 Démarrage
 
-Aucune dépendance n’est requise pour le moment.
-
-```bash
+```bash id="m1zk29"
 git clone https://github.com/<username>/<repository>.git
 cd <repository>
 ```
 
-Ouvrir ensuite `index.html` dans un navigateur.
+Puis ouvrir `index.html`.
 
 ---
 
-## 🎯 Roadmap
+## 🧱 Roadmap
 
-- Ajout de pages dédiées (personnages, factions, lore)
-- Création de composants interactifs avancés
-- Refactorisation vers une architecture plus modulaire
-- Migration vers un environnement avec build (ex: Vite)
-- Optimisation des performances et du SEO
+- 🔲 Pages : personnages, factions, lore
+- 🔲 Composants interactifs avancés
+- 🔲 Architecture modulaire
+- 🔲 Optimisation des performances et du SEO
 
 ---
 
 ## 📖 Objectif pédagogique
 
-Ce projet constitue une base d’expérimentation et d’apprentissage visant à renforcer les compétences en développement frontend et en conception d’interfaces modernes.
+Ce projet vise à :
+
+- pratiquer dans un cadre concret
+- expérimenter des patterns modernes
+- construire une base solide en frontend
+
+---
+
+## 🤝 Contribution
+
+Projet personnel, mais les retours sont toujours appréciés.
 
 ---
 
 ## 📄 Licence
 
-Projet personnel — utilisation libre à des fins d’apprentissage.
+Utilisation libre à des fins d’apprentissage.
